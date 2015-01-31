@@ -5,7 +5,7 @@
   <r-outlet name="main"></r-outlet>
 </div>
 ==
-class Site extends Template {
+class Application extends Template {
   btnHello_onclick(){
     var msg = Controllers.Hello.sayHello("Retool Developer");
     alert(msg);
